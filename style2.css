@@ -1,0 +1,109 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    font-family: monospace;
+}
+
+main{
+    max-width: max-content;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    max-width: max-content;
+    max-height: 200px;
+}
+
+button {
+    border: 5px white solid ;
+    background-color: orangered;
+    border-radius: 45px;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 20px;
+}
+
+#box {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+#inputs{
+    background-color: lightgray;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+input {
+    min-width: 10em;
+    min-height: 40px;
+    margin-top: 2px;
+    border-radius: 10px;
+}
+
+select {
+    border: 2px black solid;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+#time_text {
+
+}
+
+#result {
+    margin-left: 50px;
+    margin-top: 20px;
+    border: yellow solid 2px;
+    border-radius: 25px;
+    max-width: max-content;
+    max-height: max-content;
+}
+
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#inputs :hover :first-child {
+    background-color: yellow;
+}
+
+#inputs #time #selector:hover {
+    background-color: whitesmoke;
+}
+
+#inputs #time #selector:hover :first-child{
+    background-color: whitesmoke;
+}
+
+
+/* making it responsive
+ */
+
+@media only screen and(min-width: 375px),(min-height: 667px) {
+
+    header{
+        display: none;
+    }
+    main {
+        margin-left: 0px;
+        padding-top: 20px
+    }
+}
+@media only screen and(min-width: 414px),(min-height: 736px) {
+
+    main {
+        margin-left: 0px;
+        padding-top: 20px;
+    }
+
+
+}

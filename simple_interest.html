@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>simple interest calculator</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+<header>
+
+  <h1>SIMPLE INTEREST CALCULATOR</h1>
+
+</header>
+
+<main>
+
+  <div id="menu">
+    <button><a href="index.html">Compound interest</a></button>
+    <button>Simple Interest</button>
+
+  </div>
+  <div id="box">
+    <div id="inputs">
+
+      <form id ="principal">
+
+        <div>
+          <h3>initial amount :</h3>
+          <input type="number" name="" id="amount">
+        </div>
+      </form>
+
+      <form id="percentage">
+
+        <div>
+          <h3>Interest rate (%):</h3>
+          <input type="number" id="interest">
+
+        </div>
+      </form>
+
+      <form id="time">
+        <div>
+          <h3>Years :</h3>
+          <input type="number" id="period">
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+  <ul>
+    <li>
+      <button  id="submit" onclick=" simple_interest()">Calculate</button>
+    </li>
+
+  </ul>
+
+<div id="result"></div>
+</main>
+
+  <script src="script.js"></script>
+  </body>
+</html>

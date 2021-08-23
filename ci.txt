@@ -1,0 +1,31 @@
+formula = p(1 + i)*n
+
+1 + x = 10.12
+
+x = 10.12 - 1
+
+problems :
+
+a = p(1+r/n)*nt
+
+
+compound interest lessons :
+
+p = original amount
+r = interest rate
+n = number of times it is compounded a year
+
+e.g weekly n = 52
+    monthly = 12
+    yearly = 365
+
+ t = maximum years it is compounded
+
+
+ equation 2 : (if compounded continuously )
+a = pe*rt
+
+p = original amount
+e = euler's number
+r = rate
+y = years

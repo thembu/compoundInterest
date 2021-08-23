@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>compound interest calculator</title>
+</head>
+<body>
+    <!--
+        requirements :
+        1. header
+
+        2. main content {
+            principal
+            interest
+            period
+        }
+    -->
+      
+    
+        <header>
+         <h1>COMPOUND INTEREST CALCULATOR</h1>
+        </header>
+
+        <main>
+            
+            <div id="menu">
+
+                <button>COMPOUND INTEREST</button>
+                 <button><a href="simple_interest.html">SIMPLE INTEREST</a></button>
+
+            </div>
+              <div id="box">
+                <div id="inputs">
+
+                     <form id ="principal">
+
+                         <div>
+                            <h3>initial amount :</h3>
+                              <input type="number" name="" id="amount">
+                           </div>
+                     </form>
+
+                        <form id="percentage">
+
+                            <div>
+                                <h3>Interest rate (%):</h3>
+                                 <input type="number" id="interest">
+                                <select name="" id="selector">
+                                    <option value="yearly">yearly</option>
+                                    <option value="quarterly" >quarterly</option>
+                                    <option value="monthly" >monthly</option>
+                                </select>
+
+                            </div>
+                        </form>
+
+                            <form id="time">
+                                 <div>
+
+                                     <h3 id="time_text">Years :</h3>
+                                     <input type="number" id="years">
+                                     <h3 id="time_text">Months :</h3>
+                                     <input type="number" id="months">
+
+                                 </div>
+                            </form>
+
+                          </div>
+                              </div>
+                                     <ul>
+                                        <li>
+                                       <button  id="submit" onclick=" Compound_interest()">Calculate</button>
+                                        </li>
+                                    </ul>
+
+                                        <div id="result"></div>
+                                                 </main>
+                                                       <script src="script.js"></script>
+                                                         </body>
+                                                                  </html>
