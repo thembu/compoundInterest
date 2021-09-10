@@ -88,17 +88,15 @@ a {
 /* making it responsive
  */
 
-@media only screen and(min-width: 375px),(min-height: 667px) {
 
-    header{
-        display: none;
-    }
+@media only screen and(max-width: 375px),(max-height: 667px) {
+
     main {
         margin-left: 0px;
-        padding-top: 20px
+        padding-top: 20px;
     }
 }
-@media only screen and(min-width: 414px),(min-height: 736px) {
+@media only screen and(max-width: 414px),(max-height: 736px) {
 
     main {
         margin-left: 0px;

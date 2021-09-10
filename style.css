@@ -1,10 +1,18 @@
 header{
-    display: flex;
-    justify-content: center;
-    background-color: lightblue;
     font-family: monospace;
 }
 
+#links {
+    padding-left: 0;
+    text-align: center;
+    background-color: lightblue;
+    min-width: 100px;
+}
+
+a{
+  display: flex;
+    justify-content: left;
+}
 main{
     max-width: max-content;
     margin-left: 500px;
@@ -50,10 +58,6 @@ select {
     padding: 5px;
 }
 
-#time_text {
-
-}
-
 #result {
     margin-left: 50px;
     margin-top: 20px;
@@ -77,11 +81,15 @@ a {
     background-color: yellow;
 }
 
-#inputs #time #selector:hover {
+#inputs #years#selector:hover {
     background-color: whitesmoke;
 }
 
-#inputs #time #selector:hover :first-child{
+#inputs #year #selector:hover :first-child{
+    background-color: whitesmoke;
+}
+
+#inputs #month #selector:hover :first-child {
     background-color: whitesmoke;
 }
 
